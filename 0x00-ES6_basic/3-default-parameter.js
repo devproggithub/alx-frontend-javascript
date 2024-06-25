@@ -1,6 +1,3 @@
-function createGrid(width, height, depth) {
-    width = width !== undefined ? width : 10;
-    height = height !== undefined ? height : 10;
-    depth = depth !== undefined ? depth : 10;
-    return { width, height, depth };
+export default function getSumOfHoods(initialNumber, expansion1989 = 89, expansion2019 = 19) {
+  return initialNumber + expansion1989 + expansion2019;
 }
